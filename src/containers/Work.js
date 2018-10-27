@@ -258,21 +258,21 @@ class Writing extends Component {
           <PortRow>
             <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
               <CodeThumbnail
-                src={require("../assets/LimitlessLeggingsScreenshot.png")}
+                src={require("../assets/blog.png")}
               />
             </a>
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>Limitless Leggings</PortTitle>
+                <PortTitle>FullStack blog</PortTitle>
                 <PortButtonContainer>
                   <PortButton
-                    href="https://limitless-leggings.herokuapp.com/"
+                    href="https://github.com/streetracer48/Fullstack-blog-react"
                     target="_blank"
                   >
                     Demo
                 </PortButton>
                   <PortButton
-                    href="https://github.com/limitless-leggings/limitless-leggings"
+                    href="https://github.com/streetracer48/Fullstack-blog-react"
                     target="_blank"
                   >
                     Code
@@ -288,10 +288,8 @@ class Writing extends Component {
               <UsedList>
                 <UsedItem>React.js</UsedItem>
                 <UsedItem>Redux</UsedItem>
-                <UsedItem>PostgreSQL</UsedItem>
+                <UsedItem>PHP</UsedItem>
                 <UsedItem>CSS</UsedItem>
-                <UsedItem>Node.JS</UsedItem>
-                <UsedItem>Express</UsedItem>
               </UsedList>
             </PortAllText>
           </PortRow>
