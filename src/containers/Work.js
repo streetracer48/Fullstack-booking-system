@@ -114,8 +114,50 @@ class Writing extends Component {
     return (
       <div>
         <CenteredHeader>Recent learning based work:</CenteredHeader>
-          <PortRow>
+        <PortRow>
             <a href="https://align.fun/" target="_blank">
+              <CodeThumbnail src={require("../assets/hoffyevents.png")} />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Hoffyevent</PortTitle>
+                <PortButtonContainer>
+                  <PortButton href="" target="_blank">
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/streetracer48/Fullstack-Hoffyevents-react-redux"
+                    target="_blank"
+                  >
+                    Code
+                </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+                My capstone project from the Grace Hopper Program, Align is a web
+                application for setting and managing long-term goals with a
+                beautiful and intuitive interface. It includes image uploading
+                capability, resource cards to save helpful links, a rich text
+                editor, and live updating using Firebase WebSocket integration.
+            </PortDescription>
+              <PortDescription>
+                I worked with two incredibly smart teammates to create Align in
+              three weeks. You can read about our process building it{" "}
+                <a href="">
+                  here
+              </a>.
+            </PortDescription>
+              <UsedList>
+                <UsedItem>React.js</UsedItem>
+                <UsedItem>Redux</UsedItem>
+                <UsedItem>Firebase</UsedItem>
+                <UsedItem>Semantic-UI</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+          <hr />
+          <PortRow>
+            <a href="" target="_blank">
               <CodeThumbnail src={require("../assets/myburger.png")} />
             </a>
             <PortAllText>
@@ -143,7 +185,7 @@ class Writing extends Component {
               <PortDescription>
                 I worked with two incredibly smart teammates to create Align in
               three weeks. You can read about our process building it{" "}
-                <a href="https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c">
+                <a href="">
                   here
               </a>.
             </PortDescription>
@@ -167,7 +209,7 @@ class Writing extends Component {
                 <PortTitle>Blitz</PortTitle>
                 <PortButtonContainer>
                   <PortButton
-                    href="https://okcollab.herokuapp.com/"
+                    href=""
                     target="_blank"
                   >
                     Demo
@@ -193,7 +235,7 @@ class Writing extends Component {
                 OkCollab is responsive and works on devices of all sizes. You can
               watch me present it live{" "}
                 <a
-                  href="https://www.youtube.com/watch?v=qyLoInHNjoc"
+                  href=""
                   target="_blank"
                 >
                   here
@@ -202,10 +244,13 @@ class Writing extends Component {
               <UsedList>
                 <UsedItem>React.js</UsedItem>
                 <UsedItem>Redux</UsedItem>
-                <UsedItem>PostgreSQL</UsedItem>
+                <UsedItem>Passport JS</UsedItem>
+                <UsedItem>MongoDB</UsedItem>
                 <UsedItem>CSS</UsedItem>
                 <UsedItem>Node.JS</UsedItem>
                 <UsedItem>Express</UsedItem>
+                <UsedItem>CSS</UsedItem>
+                <UsedItem>Material-UI</UsedItem>
               </UsedList>
             </PortAllText>
           </PortRow>
