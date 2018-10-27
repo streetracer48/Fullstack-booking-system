@@ -344,13 +344,13 @@ class Writing extends Component {
                 <PortTitle>ReactPortfolio</PortTitle>
                 <PortButtonContainer>
                   <PortButton
-                    href="https://github.com/streetracer48/robo-interactive-react"
+                    href="https://github.com/streetracer48/react-awsome-portfolio"
                     target="_blank"
                   >
                     Demo
                 </PortButton>
                   <PortButton
-                    href="https://github.com/streetracer48/Fullstack-blog-react"
+                    href="https://github.com/streetracer48/react-awsome-portfolio"
                     target="_blank"
                   >
                     Code
