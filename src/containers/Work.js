@@ -336,12 +336,12 @@ class Writing extends Component {
           <PortRow>
             <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
               <CodeThumbnail
-                src={require("../assets/robot.png")}
+                src={require("../assets/portfolio.png")}
               />
             </a>
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>RoboFriend</PortTitle>
+                <PortTitle>ReactPortfolio</PortTitle>
                 <PortButtonContainer>
                   <PortButton
                     href="https://github.com/streetracer48/robo-interactive-react"
