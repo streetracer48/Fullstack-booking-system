@@ -159,12 +159,12 @@ class Writing extends Component {
           <PortRow>
             <a href="https://okcollab.herokuapp.com/" target="_blank">
               <CodeThumbnail
-                src={require("../assets/OkCollabScreenshot.png")}
+                src={require("../assets/emailsurvey.png")}
               />
             </a>
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>OkCollab</PortTitle>
+                <PortTitle>Blitz</PortTitle>
                 <PortButtonContainer>
                   <PortButton
                     href="https://okcollab.herokuapp.com/"
@@ -173,7 +173,7 @@ class Writing extends Component {
                     Demo
                 </PortButton>
                   <PortButton
-                    href="https://github.com/sophiaciocca/ok-collab"
+                    href="https://github.com/streetracer48/FullstackBlitz-VisaCardBilling-TestMode"
                     target="_blank"
                   >
                     Code
