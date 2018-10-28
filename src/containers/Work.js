@@ -134,18 +134,10 @@ class Writing extends Component {
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                My capstone project from the Grace Hopper Program, Align is a web
-                application for setting and managing long-term goals with a
-                beautiful and intuitive interface. It includes image uploading
-                capability, resource cards to save helpful links, a rich text
-                editor, and live updating using Firebase WebSocket integration.
-            </PortDescription>
-              <PortDescription>
-                I worked with two incredibly smart teammates to create Align in
-              three weeks. You can read about our process building it{" "}
-                <a href="">
-                  here
-              </a>.
+             this is  my learning based project done 80% work, I always wished I'd had -- a social network for event publishing to find other event publisher  to collaborate with. It's like Hoffyevent, except instead of dates it's for finding event location to city with and make tracks. View all users, view each user's profile and information,  see similar users in the sidebar. this is also can track users activity, It includes image uploading
+                capability,
+
+Hoffyevent is responsive and works on devices of all sizes.
             </PortDescription>
               <UsedList>
                 <UsedItem>React.js</UsedItem>
@@ -176,18 +168,8 @@ class Writing extends Component {
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                My capstone project from the Grace Hopper Program, Align is a web
-                application for setting and managing long-term goals with a
-                beautiful and intuitive interface. It includes image uploading
-                capability, resource cards to save helpful links, a rich text
-                editor, and live updating using Firebase WebSocket integration.
-            </PortDescription>
-              <PortDescription>
-                I worked with two incredibly smart teammates to create Align in
-              three weeks. You can read about our process building it{" "}
-                <a href="">
-                  here
-              </a>.
+              The Myburger  which is an amazing fullstack application utilizing all the React js concepts
+             and live updating using Firebase  integration. my burger built from scratch. It includes, firebase working signup, login, capabilities; 
             </PortDescription>
               <UsedList>
                 <UsedItem>React.js</UsedItem>
@@ -312,6 +294,45 @@ class Writing extends Component {
                 </PortButton>
                   <PortButton
                     href="https://github.com/streetracer48/Fullstack-blog-react"
+                    target="_blank"
+                  >
+                    Code
+                  </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+                Limitless Leggings is a full-stack e-commerce site built from
+                scratch. It includes products filterable by category; working
+                signup, login, and o-auth capabilities; and a working cart model
+                built in PostgreSQL.
+            </PortDescription>
+              <UsedList>
+                <UsedItem>React.js</UsedItem>
+                <UsedItem>Redux</UsedItem>
+                <UsedItem>PHP</UsedItem>
+                <UsedItem>CSS</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+          <hr/>
+          <PortRow>
+            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
+              <CodeThumbnail
+                src={require("../assets/moviedb.png")}
+              />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Movie Search Engine</PortTitle>
+                <PortButtonContainer>
+                  <PortButton
+                    href="https://github.com/streetracer48/react-awsome-portfolio"
+                    target="_blank"
+                  >
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/streetracer48/react-awsome-portfolio"
                     target="_blank"
                   >
                     Code

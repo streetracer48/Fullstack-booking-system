@@ -36,10 +36,12 @@ class Life extends Component {
 
         <div className="col-md-6 col-sm-12">
         <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/delhitour5.jpeg')}/>
-              <LifeHeader>Beautiful new delhi</LifeHeader>
+              <LifeThumbnail src={require('../assets/desk.jpg')}/>
+              <LifeHeader>Home personal work desk </LifeHeader>
             </a>
-            <p>I've missed the sense of purpose I found in chalking this city</p>
+            <p>
+            Home Working desk favorite Sipder man Marvel ps all that inspired me to create new things!
+              </p>
           </div>
 
         <div className="col-md-6 col-sm-12">
@@ -60,7 +62,21 @@ class Life extends Component {
           </div>
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/desk.jpg')}/>
+              <LifeThumbnail src={require('../assets/delhitour5.jpeg')}/>
+              <LifeHeader>Beautiful new delhi </LifeHeader>
+            </a>
+            <LifeProjectBlurb>I've missed the place of purpose I found in chalking this photo </LifeProjectBlurb>
+          </div>
+          <div className="col-md-6 col-sm-12">
+            <a href="" target="_blank">
+              <LifeThumbnail src={require('../assets/winningmoment.jpg')}/>
+              <LifeHeader>crazy funny moment memorialDay 2015 :)  </LifeHeader>
+            </a>
+            <LifeProjectBlurb>Home Working desk favorite Sipder man Marvel ps all that inspired me to create new things!</LifeProjectBlurb>
+          </div>
+          <div className="col-md-6 col-sm-12">
+            <a href="" target="_blank">
+              <LifeThumbnail src={require('../assets/fly.jpg')}/>
               <LifeHeader>Home cool work desk</LifeHeader>
             </a>
             <LifeProjectBlurb>Home Working desk favorite Sipder man Marvel ps all that inspired me to create new things!</LifeProjectBlurb>
