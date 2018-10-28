@@ -137,7 +137,16 @@ class Writing extends Component {
              this is  my learning based project done 80% work, I always wished I'd had -- a social network for event publishing to find other event publisher  to collaborate with. It's like Hoffyevent, except instead of dates it's for finding event location to city with and make tracks. View all users, view each user's profile and information,  see similar users in the sidebar. this is also can track users activity, It includes image uploading
                 capability,
 
-Hoffyevent is responsive and works on devices of all sizes.
+* Login and Register functionality using Firebase authentication
+* Adding social login for Facebook and Google into the application
+*  Google maps and Places autocomplete integration
+* Photo uploading using drag and drop, with resizing and cropping of the images before upload
+* Adding a live chat system
+* Paging, Sorting and Filtering with Firestore
+* Firestore database design
+* Creating reusable form components with Redux forms
+* Building a application with Semantic UI
+* Many more things as well
             </PortDescription>
               <UsedList>
                 <UsedItem>React.js</UsedItem>
@@ -169,7 +178,13 @@ Hoffyevent is responsive and works on devices of all sizes.
               </PortTitleContainer>
               <PortDescription>
               The Myburger  which is an amazing fullstack application utilizing all the React js concepts
-             and live updating using Firebase  integration. my burger built from scratch. It includes, firebase working signup, login, capabilities; 
+             and live updating using Firebase  integration. my burger built from scratch. It includes, firebase working signup, login, capabilities;
+             Styling of React components
+A deep dive into the internals of React and advanced component features
+How to access Http content from within React apps,
+Redux ... from basics to advanced!
+Forms and form validation in React apps
+Authentication  more
             </PortDescription>
               <UsedList>
                 <UsedItem>React.js</UsedItem>
