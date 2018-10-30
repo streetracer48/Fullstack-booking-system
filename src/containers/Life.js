@@ -40,7 +40,7 @@ class Life extends Component {
               <LifeHeader>Home loving my  working desk :)  </LifeHeader>
             </a>
             <p>
-            Home Working desk favorite Sipder man Marvel ps all that inspired me to create new things!
+            Home Working desk favorite Sipder man Marvel ps all that inspired me to more learn and create new things!
               </p>
           </div>
 

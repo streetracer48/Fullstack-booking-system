@@ -8,8 +8,7 @@ class Home extends Component {
       <div>
         <CenteredHeader>Hi! I'm Miraz . I'm a software developer based in Dhaka Bangladesh.</CenteredHeader>
         <p>
-          I'm comfortable throughout the stack, but my passion lies in the front end, 
-          at the intersection of code and design.I currently build software for the D Card Solution at the Dhaka Bangladesh.
+          I'm comfortable throughout the stack, I currently build software for the D Card Solution at the Dhaka Bangladesh.
            I  loved to build software through cool JavaScript library React js.
         </p>
         <p>
