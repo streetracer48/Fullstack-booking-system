@@ -43,7 +43,6 @@ class Code extends Component {
                 <li>JavaScript (ES6)(ES7)</li>
                 <li>React</li>
                 <li>Redux</li>
-                <li>Vue</li>
                 <li>HTML5</li>
                 <li>CSS3/Sass</li>
                 <li>jQuery</li>
@@ -77,7 +76,7 @@ class Code extends Component {
                 <li>Rest API</li>
                 <li>Jest & enzyme Testing</li>
                 <li>Photography</li>
-                <li>Driving</li>
+                <li>Driving licence valid 2026</li>
               </ul>
             </div>
           </div>

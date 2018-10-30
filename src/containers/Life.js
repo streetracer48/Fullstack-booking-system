@@ -29,7 +29,7 @@ class Life extends Component {
     return (
       <div>
         <div>
-          <CenteredHeader>I like to Trvales, regardless of photography. Here are some of my recent life:</CenteredHeader>
+          <CenteredHeader>I like to Trvales, regardless of photography. Here are some of my  life </CenteredHeader>
         </div>
         {/*Row 1*/}
         <LifeRow className="row">
@@ -37,7 +37,7 @@ class Life extends Component {
         <div className="col-md-6 col-sm-12">
         <a href="" target="_blank">
               <LifeThumbnail src={require('../assets/desk.jpg')}/>
-              <LifeHeader>Home personal work desk </LifeHeader>
+              <LifeHeader>Home loving my  working desk :)  </LifeHeader>
             </a>
             <p>
             Home Working desk favorite Sipder man Marvel ps all that inspired me to create new things!
@@ -70,16 +70,17 @@ class Life extends Component {
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
               <LifeThumbnail src={require('../assets/winningmoment.jpg')}/>
-              <LifeHeader>crazy funny moment memorialDay 2015 :)  </LifeHeader>
+              <LifeHeader>crazy funny moment and memorialDay 2015 :)  </LifeHeader>
             </a>
-            <LifeProjectBlurb>Home Working desk favorite Sipder man Marvel ps all that inspired me to create new things!</LifeProjectBlurb>
+    <LifeProjectBlurb> that moment when my leading team  fci  wining 
+Regional NHSPC programming contest , i missed lot that moment </LifeProjectBlurb>
           </div>
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
               <LifeThumbnail src={require('../assets/fly.jpg')}/>
-              <LifeHeader>Home cool work desk</LifeHeader>
+              <LifeHeader>Nijhum Dwip tour 2016</LifeHeader>
             </a>
-            <LifeProjectBlurb>Home Working desk favorite Sipder man Marvel ps all that inspired me to create new things!</LifeProjectBlurb>
+            <LifeProjectBlurb>Nijhum Dwip is a small beautiful island under Hatiya upazila. It is situated in Noakhali District in Bangladesh.</LifeProjectBlurb>
           </div>
         </LifeRow>
         {/*Row 2*/}

@@ -122,7 +122,7 @@ class Writing extends Component {
               <PortTitleContainer>
                 <PortTitle>Hoffyevent</PortTitle>
                 <PortButtonContainer>
-                  <PortButton href="" target="_blank">
+                  <PortButton href="https://github.com/streetracer48/Fullstack-Hoffyevents-react-redux/blob/master/README.md" target="_blank">
                     Demo
                 </PortButton>
                   <PortButton
@@ -134,7 +134,7 @@ class Writing extends Component {
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-             this is  my learning based project done 80% work, I always wished I'd had -- a social network for event publishing to find other event publisher  to collaborate with. It's like Hoffyevent, except instead of dates it's for finding event location to city with and make tracks. View all users, view each user's profile and information,  see similar users in the sidebar. this is also can track users activity, It includes image uploading
+             this is  my learning based project done 90% work, I always wished I'd had -- a social network for event publishing to find other event publisher  to collaborate with. It's like Hoffyevent, except instead of dates it's for finding event location to city with and make tracks. View all users, view each user's profile and information,  see similar users in the sidebar. this is also can track users activity, It includes image uploading
                 capability,
 
 * Login and Register functionality using Firebase authentication
@@ -196,7 +196,7 @@ Authentication  more
           </PortRow>
           <hr />
           <PortRow>
-            <a href="https://okcollab.herokuapp.com/" target="_blank">
+            <a href="" target="_blank">
               <CodeThumbnail
                 src={require("../assets/emailsurvey.png")}
               />
@@ -206,13 +206,13 @@ Authentication  more
                 <PortTitle>Blitz</PortTitle>
                 <PortButtonContainer>
                   <PortButton
-                    href=""
+                    href="https://github.com/streetracer48/FullstackBlitz/blob/master/README.md"
                     target="_blank"
                   >
                     Demo
                 </PortButton>
                   <PortButton
-                    href="https://github.com/streetracer48/FullstackBlitz-VisaCardBilling-TestMode"
+                    href="https://github.com/streetracer48/FullstackBlitz"
                     target="_blank"
                   >
                     Code
@@ -220,19 +220,12 @@ Authentication  more
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                For my hackathon project at Grace Hopper, I spent three days
-                building an app I always wished I'd had -- a social network for
-                musicians to find other musicians to collaborate with. It's like
-                OkCupid, except instead of dates it's for finding people to jam
-                with and make tracks. View all users, view each user's profile and
-                information, play their embedded Youtube videos, and see similar
-                users in the sidebar.
+               Email survey, this is simple fullstack web based apps, where people can survey their picnic, events compegin 
             </PortDescription>
               <PortDescription>
-                OkCollab is responsive and works on devices of all sizes. You can
-              watch me present it live{" "}
+              Blitz is responsive , know more here{" "}
                 <a
-                  href=""
+                  href="https://github.com/streetracer48/FullstackBlitz/blob/master/README.md"
                   target="_blank"
                 >
                   here
@@ -277,10 +270,7 @@ Authentication  more
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                Limitless Leggings is a full-stack e-commerce site built from
-                scratch. It includes products filterable by category; working
-                signup, login, and o-auth capabilities; and a working cart model
-                built in PostgreSQL.
+             this is full functional fullstack blog built from scratch where people can writing blog post,  View all users, view each user's profile , filterable by category; working signup, login,capabilities;
             </PortDescription>
               <UsedList>
                 <UsedItem>React.js</UsedItem>
@@ -308,7 +298,7 @@ Authentication  more
                     Demo
                 </PortButton>
                   <PortButton
-                    href="https://github.com/streetracer48/Fullstack-blog-react"
+                    href=""
                     target="_blank"
                   >
                     Code
@@ -316,15 +306,11 @@ Authentication  more
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                Limitless Leggings is a full-stack e-commerce site built from
-                scratch. It includes products filterable by category; working
-                signup, login, and o-auth capabilities; and a working cart model
-                built in PostgreSQL.
+                this is simple interactive robot searchEngine used React js AND hashrobot
             </PortDescription>
               <UsedList>
                 <UsedItem>React.js</UsedItem>
-                <UsedItem>Redux</UsedItem>
-                <UsedItem>PHP</UsedItem>
+                <UsedItem>HTML</UsedItem>
                 <UsedItem>CSS</UsedItem>
               </UsedList>
             </PortAllText>
@@ -341,13 +327,13 @@ Authentication  more
                 <PortTitle>Movie Search Engine</PortTitle>
                 <PortButtonContainer>
                   <PortButton
-                    href="https://github.com/streetracer48/react-awsome-portfolio"
+                    href="https://github.com/streetracer48/reactapimovieesearchengine"
                     target="_blank"
                   >
                     Demo
                 </PortButton>
                   <PortButton
-                    href="https://github.com/streetracer48/react-awsome-portfolio"
+                    href="https://github.com/streetracer48/reactapimovieesearchengine"
                     target="_blank"
                   >
                     Code
@@ -355,15 +341,12 @@ Authentication  more
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                Limitless Leggings is a full-stack e-commerce site built from
-                scratch. It includes products filterable by category; working
-                signup, login, and o-auth capabilities; and a working cart model
-                built in PostgreSQL.
+               this is simple interactive movie search Engine used movies database api
             </PortDescription>
               <UsedList>
                 <UsedItem>React.js</UsedItem>
-                <UsedItem>Redux</UsedItem>
-                <UsedItem>PHP</UsedItem>
+                <UsedItem>API</UsedItem>
+                <UsedItem>HTML</UsedItem>
                 <UsedItem>CSS</UsedItem>
               </UsedList>
             </PortAllText>
@@ -394,16 +377,13 @@ Authentication  more
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                Limitless Leggings is a full-stack e-commerce site built from
-                scratch. It includes products filterable by category; working
-                signup, login, and o-auth capabilities; and a working cart model
-                built in PostgreSQL.
+              this is awsome react portfolio using MaterialCSS , react and react-router
             </PortDescription>
               <UsedList>
                 <UsedItem>React.js</UsedItem>
-                <UsedItem>Redux</UsedItem>
-                <UsedItem>PHP</UsedItem>
+                <UsedItem>HTML</UsedItem>
                 <UsedItem>CSS</UsedItem>
+                <UsedItem>React-router</UsedItem>
               </UsedList>
             </PortAllText>
           </PortRow>
