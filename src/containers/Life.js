@@ -69,11 +69,17 @@ class Life extends Component {
           </div>
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
-              <LifeThumbnail src={require('../assets/winningmoment.jpg')}/>
-              <LifeHeader>crazy funny moment and memorialDay 2015 :)  </LifeHeader>
+              <LifeThumbnail src={require('../assets/delhitour3.png')}/>
+              <LifeHeader>That is something what really like</LifeHeader>
             </a>
-    <LifeProjectBlurb> that moment when my leading team  fci  wining 
-Regional NHSPC programming contest , i missed lot that moment </LifeProjectBlurb>
+            <LifeProjectBlurb> Not just a road it's Runway and art gallery.</LifeProjectBlurb>
+          </div>
+          <div className="col-md-6 col-sm-12">
+            <a href="" target="_blank">
+              <LifeThumbnail src={require('../assets/life.png')}/>
+              <LifeHeader>Open art museum</LifeHeader>
+            </a>
+            <LifeProjectBlurb>Art District is the first ever public art in india,</LifeProjectBlurb>
           </div>
           <div className="col-md-6 col-sm-12">
             <a href="" target="_blank">
@@ -81,6 +87,14 @@ Regional NHSPC programming contest , i missed lot that moment </LifeProjectBlurb
               <LifeHeader>Nijhum Dwip tour 2016</LifeHeader>
             </a>
             <LifeProjectBlurb>Nijhum Dwip is a small beautiful island under Hatiya upazila. It is situated in Noakhali District in Bangladesh.</LifeProjectBlurb>
+          </div>
+          <div className="col-md-6 col-sm-12">
+            <a href="" target="_blank">
+              <LifeThumbnail src={require('../assets/winningmoment.jpg')}/>
+              <LifeHeader>crazy funny moment and memorialDay 2015 :)  </LifeHeader>
+            </a>
+    <LifeProjectBlurb> that moment when my leading team  fci  wining 
+Regional NHSPC programming contest , i missed lot that moment </LifeProjectBlurb>
           </div>
         </LifeRow>
         {/*Row 2*/}

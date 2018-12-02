@@ -4,9 +4,6 @@ import styled from 'styled-components';
 import { CenteredHeader } from './App.js'
 import { ColorScheme } from "../theme/styleConstants";
 
-const Date = styled.p`
-  font-size: 12px;
-`
 
 const PortButtonContainer = styled.div`
   width: 30%;
@@ -115,19 +112,20 @@ class Writing extends Component {
       <div>
         <CenteredHeader>Recent learning based work:</CenteredHeader>
         <PortRow>
-            <a href="https://align.fun/" target="_blank">
+            <a rel="noopener noreferrer" href="https://align.fun/" target="_blank">
               <CodeThumbnail src={require("../assets/hoffyevents.png")} />
             </a>
             <PortAllText>
               <PortTitleContainer>
                 <PortTitle>Hoffyevent</PortTitle>
                 <PortButtonContainer>
-                  <PortButton href="https://github.com/streetracer48/Fullstack-Hoffyevents-react-redux/blob/master/README.md" target="_blank">
+                  <PortButton rel="noopener noreferrer" href="https://github.com/streetracer48/Fullstack-Hoffyevents-react-redux/blob/master/README.md" target="_blank">
                     Demo
                 </PortButton>
                   <PortButton
                     href="https://github.com/streetracer48/Fullstack-Hoffyevents-react-redux"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Code
                 </PortButton>
@@ -165,12 +163,13 @@ class Writing extends Component {
               <PortTitleContainer>
                 <PortTitle>Myburger</PortTitle>
                 <PortButtonContainer>
-                  <PortButton href="https://react-myburger-miraz.firebaseapp.com" target="_blank">
+                  <PortButton rel="noopener noreferrer" href="https://react-myburger-miraz.firebaseapp.com" target="_blank">
                     Demo
                 </PortButton>
                   <PortButton
                     href="https://github.com/streetracer48/FullStack-MyBurger-React.Redux"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Code
                 </PortButton>
@@ -208,12 +207,14 @@ Authentication  more
                   <PortButton
                     href="https://github.com/streetracer48/FullstackBlitz/blob/master/README.md"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Demo
                 </PortButton>
                   <PortButton
                     href="https://github.com/streetracer48/FullstackBlitz"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Code
                   </PortButton>
@@ -227,6 +228,7 @@ Authentication  more
                 <a
                   href="https://github.com/streetracer48/FullstackBlitz/blob/master/README.md"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   here
               </a>.
@@ -246,7 +248,59 @@ Authentication  more
           </PortRow>
           <hr />
           <PortRow>
-            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
+            <a href="" target="_blank">
+              <CodeThumbnail
+                src={require("../assets/metaadmin.png")}
+              />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>interactive metaAdmin</PortTitle>
+                <PortButtonContainer>
+                  <PortButton
+                    href="https://streetracer48.github.io/interactive-metaAdmin/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/streetracer48/interactive-metaAdmin/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code
+                  </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+              Responsive interactive-metaAdmin this is my learning based project done 100% work
+            </PortDescription>
+              <PortDescription>
+              Meta admin  is responsive , know more here{" "}
+                <a
+                  href="https://streetracer48.github.io/interactive-metaAdmin/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  here
+              </a>.
+            </PortDescription>
+              <UsedList>
+                <UsedItem>Material-UI</UsedItem>
+                <UsedItem>Font-Awsome</UsedItem>
+                <UsedItem>Google-fonts</UsedItem>
+                <UsedItem>HTML</UsedItem>
+                <UsedItem>CSS</UsedItem>
+                <UsedItem>Canvas js</UsedItem>
+                <UsedItem>Jquery</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+
+  <hr />
+          <PortRow>
+            <a href="" target="_blank" rel="noopener noreferrer">
               <CodeThumbnail
                 src={require("../assets/blog.png")}
               />
@@ -258,12 +312,14 @@ Authentication  more
                   <PortButton
                     href="https://github.com/streetracer48/Fullstack-blog-react"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Demo
                 </PortButton>
                   <PortButton
                     href="https://github.com/streetracer48/Fullstack-blog-react"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Code
                   </PortButton>
@@ -281,8 +337,199 @@ Authentication  more
             </PortAllText>
           </PortRow>
           <hr/>
+
+           <PortRow>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <CodeThumbnail
+                src={require("../assets/manhester.png")}
+              />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Manchester-CityFC-Project</PortTitle>
+                <PortButtonContainer>
+                  <PortButton
+                    href="https://github.com/Manchester-CityFC-Project/Football-React/blob/master/README.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/Manchester-CityFC-Projectt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code
+                  </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+              Manchester City Football Club, commonly known as Man. City, is a football club in Manchester, England. however this is my learning based project
+            </PortDescription>
+              <UsedList>
+                <UsedItem>React.js</UsedItem>
+                <UsedItem>Firebase</UsedItem>
+                <UsedItem>Material - UI</UsedItem>
+                <UsedItem>CSS</UsedItem>
+                <UsedItem>HTML</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+          <hr/>
+           <PortRow>
+            <a href="" rel="noopener noreferrer" target="_blank">
+              <CodeThumbnail
+                src={require("../assets/travel.png")}
+              />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>travel application</PortTitle>
+                <PortButtonContainer>
+                  <PortButton
+                    href="https://streetracer48.github.io/playing-with-materialize-css/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/streetracer48/playing-with-materialize-css"
+                    target="_blank"
+                  >
+                    Code
+                  </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+              this is simple material-ui Travel agency front-end  application
+            </PortDescription>
+              <UsedList>
+                <UsedItem>Material-UI</UsedItem>
+                <UsedItem>HTML</UsedItem>
+                <UsedItem>CSS</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+          <hr/>
           <PortRow>
-            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <CodeThumbnail
+                src={require("../assets/expensify.png")}
+              />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Expensify</PortTitle>
+                <PortButtonContainer>
+                  <PortButton
+                    href="https://github.com/streetracer48/Expensify-react/blob/master/README.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/streetracer48/Expensify-react"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code
+                  </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+             Expensify where people easly note their expens coming more soon ....
+            </PortDescription>
+              <UsedList>
+                <UsedItem>React.js</UsedItem>
+                <UsedItem>Redux</UsedItem>
+                <UsedItem>Airbnb Datepicker</UsedItem>
+                <UsedItem>CSS</UsedItem>
+                <UsedItem>HTML</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+          <hr/>
+          <PortRow>
+            <a href="" rel="noopener noreferrer" target="_blank">
+              <CodeThumbnail
+                src={require("../assets/cloud1.png")}
+              />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>CloudV9</PortTitle>
+                <PortButtonContainer>
+                  <PortButton
+                    href="https://streetracer48.github.io/playing-with-materialize-css/cloud/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/streetracer48/playing-with-materialize-css/tree/master/cloud"
+                    target="_blank"
+                  >
+                    Code
+                  </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+                this is simple cloud business  based  Material-UI front-end website 100% done 
+            </PortDescription>
+              <UsedList>
+                <UsedItem>Material-UI</UsedItem>
+                <UsedItem>Google Fonts</UsedItem>
+                <UsedItem>HTML</UsedItem>
+                <UsedItem>CSS</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+          <hr/>
+          <PortRow>
+            
+            <a href="" rel="noopener noreferrer" target="_blank">
+              <CodeThumbnail
+                src={require("../assets/ecommerece.png")}
+              />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle> Ecommerece Online shopping store</PortTitle>
+                <PortButtonContainer>
+                  <PortButton
+                    href="https://github.com/streetracer48/Fullstack-ecommerce-react/blob/master/README.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/streetracer48/Fullstack-ecommerce-react"
+                    target="_blank"
+                  >
+                    Code
+                  </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+                this is simple ecommerec learning based project where people can order from Online More details coming soon
+            </PortDescription>
+              <UsedList>
+                <UsedItem>React.js</UsedItem>
+                <UsedItem>Express js</UsedItem>
+                <UsedItem>MongoDB</UsedItem>
+                <UsedItem>CSS</UsedItem>
+                <UsedItem>HTML</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+          <hr/>
+          <PortRow>
+            <a href="" rel="noopener noreferrer" target="_blank">
               <CodeThumbnail
                 src={require("../assets/robot.png")}
               />
@@ -294,6 +541,7 @@ Authentication  more
                   <PortButton
                     href="https://github.com/streetracer48/robo-interactive-react"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Demo
                 </PortButton>
@@ -317,7 +565,44 @@ Authentication  more
           </PortRow>
           <hr/>
           <PortRow>
-            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
+            <a href="" rel="noopener noreferrer" target="_blank">
+              <CodeThumbnail
+                src={require("../assets/blizz2.png")}
+              />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Blizz</PortTitle>
+                <PortButtonContainer>
+                  <PortButton
+                    href="https://streetracer48.github.io/playing-with-materialize-css/Blitz/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/streetracer48/playing-with-materialize-css/tree/master/Blitz"
+                    target="_blank"
+                  >
+                    Code
+                  </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+                this is simple Landing UI Front-end based 100%work
+            </PortDescription>
+              <UsedList>
+                <UsedItem>Material-UI</UsedItem>
+                <UsedItem>HTML</UsedItem>
+                <UsedItem>CSS</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+ 
+          <hr/>
+          <PortRow>
+            <a href="" target="_blank" rel="noopener noreferrer">
               <CodeThumbnail
                 src={require("../assets/moviedb.png")}
               />
@@ -329,12 +614,14 @@ Authentication  more
                   <PortButton
                     href="https://github.com/streetracer48/reactapimovieesearchengine"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Demo
                 </PortButton>
                   <PortButton
                     href="https://github.com/streetracer48/reactapimovieesearchengine"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Code
                   </PortButton>
@@ -353,7 +640,7 @@ Authentication  more
           </PortRow>
           <hr/>
           <PortRow>
-            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
+            <a  rel="noopener noreferrer" href="" target="_blank">
               <CodeThumbnail
                 src={require("../assets/portfolio.png")}
               />
@@ -365,12 +652,14 @@ Authentication  more
                   <PortButton
                     href="https://github.com/streetracer48/react-awsome-portfolio"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Demo
                 </PortButton>
                   <PortButton
                     href="https://github.com/streetracer48/react-awsome-portfolio"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Code
                   </PortButton>
