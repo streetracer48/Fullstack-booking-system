@@ -21,7 +21,7 @@ router.get('/:id', function(req,res){
 
     Rental.findById(rentalId, (err, docs) => {
         if(err) {
-              return res.status(400).send(err);
+              return res.status(422).send({errors: [{title:'Rental Error', detail:'could not find the Rental'}]});
         }
         res.status(200).send(docs) 
   })
