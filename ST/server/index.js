@@ -13,7 +13,7 @@ app.use(cookieParser())
 
 //Models
 const {Rental} = require('../models/rental');
-
+const rentalRouter = require('../routes/rental');
 
 //ROUTES
 
@@ -34,6 +34,9 @@ app.post('/api/rental/detail',(req, res) => {
      })
 
 });
+
+
+app.use('/api/rental/articles', rentalRouter);
 
 
 const port = process.env.PORT || 3002;
