@@ -14,6 +14,7 @@ app.use(cookieParser())
 //Models
 const {Rental} = require('../models/rental');
 const rentalRouter = require('../routes/rental');
+const userRoute = require('../routes/user')
 
 //ROUTES
 
@@ -37,6 +38,7 @@ app.post('/api/rental/detail',(req, res) => {
 
 
 app.use('/api/rental/articles', rentalRouter);
+app.use('/api/users/', userRoute)
 
 
 const port = process.env.PORT || 3002;
